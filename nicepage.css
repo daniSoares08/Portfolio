@@ -42562,7 +42562,23 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 66px;
+  }
 
+  .u-header .u-image-1 {
+    width: 56px;
+    height: 34px;
+    margin-top: 16px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -32px;
+    margin-bottom: 16px;
+  }
+}
  .u-footer {
   background-image: none;
 }
